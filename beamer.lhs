@@ -28,6 +28,10 @@
   }
 }
 
+\newenvironment{xframe}[1][]
+  {\begin{frame}[fragile,environment=xframe,#1]}
+  {\end{frame}}
+
 % uncomment me to get 4 slides per page for printing
 % \usepackage{pgfpages}
 % \pgfpagesuselayout{4 on 1}[uspaper, border shrink=5mm]
